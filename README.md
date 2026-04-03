@@ -2,6 +2,8 @@
 
 SAM3-Plus-Qwen3.5 is an advanced, experimental computer vision suite that seamlessly integrates Facebook's Segment Anything Model 3 (SAM3) with the Qwen3.5 multimodal reasoning engine. This application provides a highly interactive web interface designed for precision image detection, interactive click-based segmentation, and automated video object tracking. By utilizing SAM3 to generate high-quality candidate masks and leveraging Qwen3.5 to intelligently filter and reason about these proposals based on user-provided text prompts, the tool ensures highly accurate, context-aware visual grounding. The suite is fully GPU-accelerated and offers distinct operational modes for both static images and video files, making it an excellent workspace for researchers and developers building sophisticated vision-language workflows.
 
+https://github.com/user-attachments/assets/5d56e941-b0ca-468a-8f62-829861997776
+
 ### **Key Features**
 
 * **Image Detection with AI Filtering:** Combines SAM3's powerful region proposal capabilities with Qwen3.5's reasoning to filter out irrelevant bounding boxes, ensuring the final segmented objects strictly match the user's text prompt. 

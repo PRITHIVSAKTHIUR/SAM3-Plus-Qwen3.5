@@ -41,8 +41,8 @@ pip install pip>=26.0.0
 Install the necessary machine learning, computer vision, and UI libraries. You can place these in a `requirements.txt` file and run `pip install -r requirements.txt`.
 
 ```text
-torch==2.6.0
-torchvision==0.21.0
+torch==2.8.0
+torchvision
 transformers==5.3.0
 supervision
 scipy
@@ -57,7 +57,7 @@ scikit-image
 matplotlib
 modelscope
 pycocotools
-https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.4.post1/flash_attn-2.7.4.post1+cu12torch2.6cxx11abiFALSE-cp310-cp310-linux_x86_64.whl
+flash-attn @ https://huggingface.co/strangertoolshf/flash_attention_2_wheelhouse/resolve/main/wheelhouse-flash_attn-2.8.3/linux_x86_64/torch2.8/cu12/abiFALSE/cp310/flash_attn-2.8.3+cu12torch2.8cxx11abiFALSE-cp310-cp310-linux_x86_64.whl
 opencv-python
 sentencepiece
 qwen-vl-utils
